@@ -1,0 +1,7 @@
+FFT based FIR Filter
+
+For Virtex 2 and above
+
+Uses DSP slices and Block RAM for performances in 600MHz clock and processing at speeds of 1 butterfly in 3 clock cycles
+
+alfft_core_sli.vhd is the main file for execution. Other files have to be synthesized and then added
